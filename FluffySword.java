@@ -11,6 +11,7 @@
     }
     public FluffySword(){
         this("Fluffy Sword", "Fluff", 10);
+        System.out.println("You will now attack at 10 happiness");
     }
     public int attack(int happyRating){
         

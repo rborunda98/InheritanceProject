@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=Name\ Speed
+comment0.target=TransportationAbstract(java.lang.String,\ int)
+comment1.params=
+comment1.target=void\ moveForward()
+comment2.params=
+comment2.target=void\ moveBackward()
+comment3.params=
+comment3.target=void\ turnLeft()
+comment4.params=
+comment4.target=void\ turnRight()
+numComments=5

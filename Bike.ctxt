@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=Name\ Speed
+comment0.target=Bike(java.lang.String,\ int)
+comment1.params=
+comment1.target=Bike()
+comment2.params=
+comment2.target=void\ moveForward()
+comment3.params=
+comment3.target=void\ moveBackward()
+comment4.params=
+comment4.target=void\ moveLeft()
+comment5.params=
+comment5.target=void\ moveRight()
+numComments=6

@@ -4,14 +4,14 @@
  * 
  * @author (your name) 
  * @version (a version number or a date)
- */public class WoodenSword extends SwordAbstract implements WeaponInterface
+ */public class StringBow extends BowAbstract implements WeaponInterface
 {
-    public WoodenSword(String name, String material, int happyRating){
+    public StringBow(String name, String material, int happyRating){
         super(name, material, happyRating);
     }
-    public WoodenSword(){
-        this("Wooden Sword", "Wood", 2);
-        System.out.println("You will now attack at 2 happiness.");
+    public StringBow(){
+        this("String Bow", "String", 1);
+        System.out.println("You will attack at 1 Happiness");
     }
     public int attack(int happyRating){
         

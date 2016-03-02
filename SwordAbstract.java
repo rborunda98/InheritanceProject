@@ -5,7 +5,7 @@ import java.util.*;
  * @author (your name here)
  * @version (version number or date here)
  */
-public abstract class SwordAbstract 
+public abstract class SwordAbstract extends Item
 {
     private int Happiness;
     private String materialType;

@@ -8,33 +8,45 @@
 import java.util.ArrayList;
 public class Item implements ItemInterface{
     ArrayList<Object> object = new ArrayList<Object>();
+   
     
-    FluffySword fluffy_sword = new FluffySword("Fluffy Sword", "Fluff", 10);
-    WoodenSword wooden_sword = new WoodenSword("Wooden Sword", "wood", 2);
-    StringBow string_bow = new StringBow("String Bow", "String", 1);
-    GoldenBow golden_bow = new GoldenBow("Golden Bow", "Gold", 8);
-    Cookie cookie_s = new Cookie("Cookie", 5);
-    Cake cake_s = new Cake("Cake", 10);
-    Car car_s = new Car("Car", 10);
-    Bike bike_s = new Bike("Bike", 5);
-    Walk walk_s = new Walk("Legs", 2);
+    String fluffysword = "Fluffy Sword";
+    String woodensword = "Wooden Sword";
+    String stringbow = "String Bow";
+    String goldenbow = "Golden Bow";
+    String cookie = "Cookie";
+    String cake = "Cake";
+    String car = "Car";
+    String bike = "Bike";
+    String walk = "Walk";
+    String suit = "Suit";
+    String jacket = "Jacket";
+    String Watch = "Watch";
+    String Smartphone = "Smartphone";
+    String Paper_Rock_Scissor = "Paper Rock Scissor";
+    String Drawing = "Drawing";
+    String returns = "These are the Array names";
+   
     
-    public void ListName(){
-        object.add(fluffy_sword);
-        object.add(wooden_sword);
-        object.add(string_bow);
-        object.add(golden_bow);
-        object.add(cookie_s);
-        object.add(cake_s);
-        object.add(car_s);
-        object.add(bike_s);
-        object.add(walk_s);
-    }
     public String getName(){
-        return this.Name;
-        
+        System.out.println(fluffysword);
+        System.out.println(woodensword);
+        System.out.println(stringbow);
+        System.out.println(goldenbow);
+        System.out.println(cookie);
+        System.out.println(cake);
+        System.out.println(car);
+        System.out.println(bike);
+        System.out.println(walk);
+        System.out.println(suit);
+        System.out.println(jacket);
+        System.out.println(Watch);
+        System.out.println(Smartphone);
+        System.out.println(Paper_Rock_Scissor);
+        System.out.println(Drawing);
+        return returns; 
     }
     public ArrayList getStats(){
-        object.get(1);
+        return object;
     }
 }

@@ -5,7 +5,7 @@
  * @author (your name here)
  * @version (version number or date here)
  */
-public abstract class TransportationAbstract
+public abstract class TransportationAbstract extends Item
 {
     private String TransportName;
     private int TransportSpeed;

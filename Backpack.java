@@ -6,13 +6,9 @@
  * @version 1.2
  */
 import java.util.ArrayList;
-public class Backpack implements BackpackInterface {
+public class Backpack extends Item implements BackpackInterface {
     // instance variables - replace the example below with your own
     private ArrayList<Item> backpack;
-
-    /**
-     * Constructor for objects of class Backpack
-     */
     public Backpack()
     {
         // initialise instance variables
@@ -29,6 +25,7 @@ public class Backpack implements BackpackInterface {
         backpack.add(item);
         return true;
     }
+
     /**
      * Consumes an item in the backpack, removing it.
      * 
@@ -44,6 +41,7 @@ public class Backpack implements BackpackInterface {
         }
         return false;
     }
+
     /**
      * Gets the contents of the backpack
      * 
@@ -53,6 +51,7 @@ public class Backpack implements BackpackInterface {
     public ArrayList<Item> getInventory(){
         return backpack;
     }
+
     public int countItems(){
         int count = 0;
         for (Item item : backpack){
